@@ -1,5 +1,6 @@
+
 *{
-    background-color:rgb(40, 11, 146) ;
+    background-color:rgba;
 }
 .ul{
     justify-content: center;
@@ -10,6 +11,20 @@
 }
 
 .footer{
-    background-color:rgb(40, 11, 146) ;
+    background-color:rgb(36, 21, 100) ;
     justify-content: center;
+}
+.certificate-image {
+    width: 120%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .5s ease;
+    align-items: center
+}
+
+.certificate-images:hover {
+    position: absolute;
+    z-index: 1;
+    transform: scale(2.5)
 }
