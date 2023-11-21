@@ -1,7 +1,7 @@
 <!DOCTYPE html>
- 
+
 <html lang="en">
- 
+
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,24 +10,54 @@
   <link rel="stylesheet" href="style.css">
   <link rel="short icon" href="icon.svg" type="image/x-icon">
 </head>
- 
- 
+
+
 <body>
-  <div style="background-color: aqua;">
-<header class="hero-section">
+    <div style="background-color: aqua;">
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="icon.svg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#homepage">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cta">CTA</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   </header>
+    
+<div class="hero-section">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-            <a class="navbar-brand" href="#"><img src="icon.svg"></a>
             <h1 class="hero-title">Jerico Dionisio</h1>
           <p class="hero-subtitle">Web Developer & Designer</p>
           <a href="#about" class="btn btn-primary">Learn More</a>
         </div>
       </div>
     </div>
-  </header>
- 
-  <section id="about" class="section">
+</div>
+
+  <section id="about" class="section pb-5 pt-5">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -41,115 +71,132 @@
       </div>
     </div>
   </section>
- 
-  <section id="portfolio" class="section">
+
+  <section id="portfolio" class="section pb-5 pt-5">
     <div class="container">
-      <h2 class="section-title">Portfolio</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="project-card">
-            <img src="C++.png" alt="Project 1 Screenshot" class="project-image">
-            <div class="project-details">
-              <h4>Project 1</h4>
-              <p>Take a look at some of my completed web design.</p>
-              <a href="#" class="btn btn-primary">View Details</a>
+        <h2 class="section-title">Portfolio</h2>
+        <div class="row">
+            <div class="card col-md-4" style="width: 18rem; margin-right: 7rem;">
+                <img src="Work1.png" class="card-img-top" alt="Work1">
+                <div class="card-body">
+                  <h5 class="card-title">Work 1</h5>
+                  <p class="card-text">This Website i develop and design in destop and mobile using Figma.</p>
+                  <a href="https://www.figma.com/proto/bhHzvJACxNl5Rtij3yX2WZ/WEBDEV(PRELIMS)?type=design&node-id=1-2&t=GP4qFpQJxeanChcu-0&scaling=min-zoom&page-id=0%3A1" target="_blank" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
-          </div>
+                <div class="card col-md-4" style="width: 18rem; margin-right: 7rem;">
+                    <img src="Work2.png" class="card-img-top" alt="Work2">
+                    <div class="card-body">
+                      <h5 class="card-title">Work 2</h5>
+                      <p class="card-text">Responsive Reservation Mobile that i develop.</p>
+                      <a href="https://www.figma.com/proto/lUfFr7rf7l3UctG3JpmAo3/Untitled?type=design&node-id=9-3&t=GP4qFpQJxeanChcu-0&scaling=scale-down&page-id=0%3A1" target="_blank" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card col-md-4" style="width: 18rem;">
+                    <img src="Work3.png" class="card-img-top" alt="Work3">
+                    <div class="card-body">
+                      <h5 class="card-title">Work 3</h5>
+                      <p class="card-text">Cropping image using Figma.</p>
+                      <a href="https://www.figma.com/proto/HrtZjFQ6VQpPP1xRrINifb/Cropping?type=design&t=GP4qFpQJxeanChcu-0&scaling=min-zoom&page-id=0%3A1" target="_blank" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+              
         </div>
- 
-        <div class="col-md-4">
-          <div class="project-card">
-            <img src="C.jpg" alt="Project 2 Screenshot" class="project-image">
-            <div class="project-details">
-              <h4>Project 2</h4>
-              <p>Take a look at some of my completed web design.</p>
-              <a href="#" class="btn btn-primary">View Details</a>
-            </div>
-          </div>
-        </div>
- 
-        <div class="col-md-4">
-          <div class="project-card">
-            <img src="C++.png" alt="Project 3 Screenshot" class="project-image">
-            <div class="project-details">
-              <h4>Project 3</h4>
-              <p>Take a look at some of my completed web design.</p>
-              <a href="#" class="btn btn-primary">View Details</a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
+
+   
   </section>
- 
-  <section id="contact" class="section">
    
-    <section id="skills" class="section">
+    <section id="Skills" class="section pb-5 pt-5">
         <div class="container">
-            <h2 class="section-title">Skills</h2>
+            <h2 class="Skills-title text-center">Skills</h2>
             <div class="row">
-                <div class="col-md-6">
-                    <ul class="skills-list">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Bootstrap</li>
-                        <li>Figma</li>
-                        <li>Adobe XD</li>
-                    </ul>
+              <div class="col-md-4">
+                <div class="project-card text-center" style="border: 1px solid white;">
+                  <img src="C++.png" alt="Project 1 Screenshot" class="project-image pt-3" >
+                  <div class="project-details pb-3">
+                    <h4>Project 1</h4>
+                    <p>Take a look at some of my completed web design.</p>
+                    <a href="#" class="btn btn-primary">View Details</a>
+                  </div>
                 </div>
+              </div>
+      
+              <div class="col-md-4">
+                <div class="project-card text-center" style="border: 1px solid white;">
+                  <img src="C.jpg" alt="Project 2 Screenshot" class="project-image pt-3">
+                  <div class="project-details pb-3">
+                    <h4>Project 2</h4>
+                    <p>Take a look at some of my completed web design.</p>
+                    <a href="#" class="btn btn-primary">View Details</a>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-md-4">
+                <div class="project-card text-center" style="border: 1px solid white;">
+                  <img src="C++.png" alt="Project 3 Screenshot" class="project-image pt-3">
+                  <div class="project-details pb-3">
+                    <h4>Project 3</h4>
+                    <p>Take a look at some of my completed web design.</p>
+                    <a href="#" class="btn btn-primary">View Details</a>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
+          </div>   
     </section>
-   
-    <section id="certificates" class="section">
+    
+    <section id="certificates" class="section pb-5 pt-5">
         <div class="container">
-            <h2 class="section-title">Certificates</h2>
+            <h2 class="section-title text-center pb-5 pt-5">Certificates</h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="certificate-card">
-                        <img src="certificate-1.jpg" alt="Certificate 1" class="certificate-image">
+                        <img src="Certi1.png" alt="Certificate 1" class="certificate-image" style="width: 20rem;">
                         <h4>Web Development Fundamentals</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Participated in Web Dev Fundamentals.</p>
                     </div>
                 </div>
-   
+    
                 <div class="col-md-4">
                     <div class="certificate-card">
-                        <img src="certificate-2.jpg" alt="Certificate 2" class="certificate-image">
+                        <img src="Certi2.png" alt="Certificate 2" class="certificate-image" style="width: 20rem;">
                         <h4>Front-End Web Development</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Participated in completion of two moths of internshipin the area of Analysis of
+                            Information Technology Domain.</p>
                     </div>
                 </div>
-   
+    
                 <div class="col-md-4">
                     <div class="certificate-card">
-                        <img src="certificate-3.jpg" alt="Certificate 3" class="certificate-image">
+                        <img src="Certi3.png" alt="Certificate 3" class="certificate-image" style="width: 20rem;">
                         <h4>UI/UX Design</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Participated in UI/UX Designing.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-   
-    <section id="cta" class="section">
+    
+    <section id="cta" class="section text-center pb-5 pt-5">
         <div class="container">
-            <h2 class="section-title">Call to Action</h2>
+            <h2 class="section-title">Want A Website?</h2>
             <div class="row">
-                <div class="col-md-6">
-                    <p>Looking for a passionate and skilled web developer and designer to bring your ideas to life? Contact me today to discuss your project requirements.</p>
-                    <a href="#" class="btn btn-primary">Contact Me</a>
+                <div class="">
+                    <p>Looking for a passionate and skilled web developer and designer to bring your ideas to life?
+                         Contact me today to discuss your project requirements.</p>
+                    <a href="#" class="btn btn-primary" >Contact Me</a>
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
    
-    <section id="footer"  style="padding: 15px; align-items: center;">
+    <section id="footer"  style="background-color: rgb(11, 11, 65); padding: 15px; align-items: center;">
         <div class="container">
         <div>
             <div class="row" >
-             
+              
                 <div class="" style="text-align: center; background-color: rgb(11, 11, 65);">
                     <div class="text-white" style="background-color: rgb(11, 11, 65);">
                         <a class="navbar-brand" href="#" style="float: left;;">
